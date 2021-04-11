@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "EjercicioS8_Cliente_Eco"
