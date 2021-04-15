@@ -29,7 +29,7 @@ public class TCPSingleton extends Thread{
     public void run() {
         try {
             // <–– PC address -->
-            Socket socket = new Socket("10.0.2.2", 5000);
+            Socket socket = new Socket("10.0.2.2", 8000);
 
             OutputStream os = socket.getOutputStream();
             OutputStreamWriter osw = new OutputStreamWriter(os);
